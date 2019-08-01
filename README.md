@@ -1,4 +1,4 @@
-# Hello World on Ci++
+# Hello World on C++
 
 ## Description
 
