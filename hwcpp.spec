@@ -3,7 +3,7 @@
 
 Name:          hwcpp
 Version:       %{_rpm_version}
-Release:       1%{?dist}
+Release:       1%{?dist}%{?_rpm_branch}
 Summary:       Hello World on C++
 License:       Proprietary
 Source0:       %{name}-%{_rpm_version}.tar.gz
