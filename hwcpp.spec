@@ -2,14 +2,13 @@
 %define debug_package %{nil}
 
 Name:          hwcpp
-Version:       1.0.0
+Version:       %{_rpm_version}
 Release:       1%{?dist}
 Summary:       Hello World on C++
-Group:         Vision
 License:       Proprietary
-Source0:       %{name}-%{version}.tar.gz
-BuildRoot:     %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
-Provides:      hwcpp = %{version}-%{release}
+Source0:       %{name}-%{_rpm_version}.tar.gz
+BuildRoot:     %{_tmppath}/%{name}-%{_rpm_version}-%{release}-root-%(%{__id_u} -n)
+Provides:      hwcpp = %{_rpm_version}-%{release}
 
 %description
 A simple Hello World project on C++
